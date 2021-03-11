@@ -1,7 +1,9 @@
 __author__ = 'jiataogu'
 import os
 import os.path as path
+import sys
 
+# create def setup_ptb2():
 def setup_ptb2():
     # pretraining setting up.
     # get the lm_config.
