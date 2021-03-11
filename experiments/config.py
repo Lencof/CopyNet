@@ -1,8 +1,10 @@
 __author__ = 'jiataogu'
-import os
+import os# use os 
 import os.path as path
+import sys # Use sys 
 
 
+# create def setup():
 def setup():
     config = dict()
     # config['seed']            = 3030029828
@@ -277,6 +279,7 @@ def setup_syn():
     # return config
 
 
+# create def setup_bst():
 def setup_bst():
     config = dict()
     config['seed']            = 3030029828
@@ -377,7 +380,7 @@ def setup_bst():
     print 'setup ok.'
     return config
 
-
+# create def setup_lcsts():
 def setup_lcsts():
     config = dict()
     config['seed']            = 3030029828
@@ -495,7 +498,7 @@ def setup_lcsts():
     print 'setup ok.'
     return config
 
-
+# create def setup_weibo():
 def setup_weibo():
     config = dict()
     config['seed']            = 3030029828
