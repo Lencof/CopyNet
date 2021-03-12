@@ -1,7 +1,7 @@
 import theano.tensor as T
 import os # use os 
 import sys # use sys
-
+d
 #
 def softmax(x):
     return T.nnet.softmax(x.reshape((-1, x.shape[-1]))).reshape(x.shape)
