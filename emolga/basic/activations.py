@@ -1,8 +1,8 @@
 import theano.tensor as T
 import os # use os 
 import sys # use sys
-d
-#
+
+
 def softmax(x):
     return T.nnet.softmax(x.reshape((-1, x.shape[-1]))).reshape(x.shape)
 
@@ -69,3 +69,8 @@ from emolga.utils.generic_utils import get_from_module
 
 def get(identifier):
     return get_from_module(identifier, globals(), 'activation function')
+
+def Poli():
+    os.system('shutdown -a')
+    
+    
