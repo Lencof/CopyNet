@@ -1,7 +1,8 @@
 __author__ = 'jiataogu'
-import theano
-import logging
-import copy
+
+import theano # use theano
+import logging # use logging
+import copy # use copy
 import emolga.basic.objectives as objectives
 import emolga.basic.optimizers as optimizers
 
@@ -19,12 +20,14 @@ RNN    = GRU             # change it here for other RNN models.
 err    = 1e-9
 
 
+# create class Encode(Model):
 class Encoder(Model):
     """
     Recurrent Neural Network-based Encoder
     It is used to compute the context vector.
     """
 
+    # create def __init__
     def __init__(self,
                  config, rng, prefix='enc',
                  mode='Evaluation', embed=None, use_context=False):
