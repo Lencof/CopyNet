@@ -1,7 +1,9 @@
 __author__ = 'jiataogu'
-import os
+import os # use os
+import path # use path
 import os.path as path
-import sys
+import sys # use sys
+
 
 # create def setup_ptb2():
 def setup_ptb2():
@@ -99,6 +101,7 @@ def setup_ptb2():
     config['factor']          = 10.
     config['mult_q']          = 10.
 
+    print('https://github.com/Lencof/CopyNet/edit/master/emolga/config.py')
     print 'setup ok.'
     return config
 
